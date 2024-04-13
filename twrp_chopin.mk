@@ -13,17 +13,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from ruby device
-$(call inherit-product, device/xiaomi/ruby/device.mk)
+$(call inherit-product, device/xiaomi/chopin/device.mk)
 
-PRODUCT_DEVICE := ruby
-PRODUCT_NAME := twrp_ruby
+PRODUCT_DEVICE := chopin
+PRODUCT_NAME := twrp_chopin
 PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := ruby
+PRODUCT_MODEL := chopin
 PRODUCT_MANUFACTURER := xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="vnd_ruby-user 12 SP1A.210812.016 V13.0.4.0.SMOINXM release-keys"
+    PRIVATE_BUILD_DESC="vnd_chopin-user 12 SP1A.210812.016 V14.0.5.0.TKPIDXM release-keys"
 
-BUILD_FINGERPRINT := Redmi/ruby_in/ruby:12/SP1A.210812.016/V13.0.4.0.SMOINXM:user/release-keys
+BUILD_FINGERPRINT := Redmi/chopin/chopin:12/SP1A.210812.016/V14.0.5.0.TKPIDXM:user/release-keys
