@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_ruby.mk
+    $(LOCAL_DIR)/twrp_chopin.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_ruby-user \
-    twrp_ruby-userdebug \
-    twrp_ruby-eng
+    twrp_chopin-user \
+    twrp_chopin-userdebug \
+    twrp_chopin-eng
