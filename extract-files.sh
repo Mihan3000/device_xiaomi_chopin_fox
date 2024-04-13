@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=ruby
+DEVICE=chopin
 VENDOR=xiaomi
 
 # Load extract_utils and do some sanity checks
