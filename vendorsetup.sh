@@ -5,6 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo omni_ruby-user
-add_lunch_combo omni_ruby-userdebug
-add_lunch_combo omni_ruby-eng
+add_lunch_combo omni_chopin-user
+add_lunch_combo omni_chopin-userdebug
+add_lunch_combo omni_chopin-eng
